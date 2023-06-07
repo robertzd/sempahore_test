@@ -5,7 +5,6 @@
   become: 'true'
 
   vars:
-    host_key_checking: 'false'
     ntp_enabled: 'false'
     ntp_timezone: 'Europe/Oslo'
     apt_manage_sources_list: 'true'
