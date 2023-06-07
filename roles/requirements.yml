@@ -1,6 +1,5 @@
 ---
 roles:
- names: 
-  - oefenweb.apt   
-  - geerlingguy.ntp
-  - singleplatform-eng.users
+- name: oefenweb.apt
+- name: geerlingguy.ntp
+- name: singleplatform-eng.users
