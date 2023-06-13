@@ -5,8 +5,8 @@
   become: 'true'
 
   vars:
-    host_key_checking: 'false'
     ntp_enabled: 'true'
+    ntp_daemon: 'ntp'
     ntp_timezone: 'Europe/Oslo'
     apt_manage_sources_list: 'true'
     user_management:
